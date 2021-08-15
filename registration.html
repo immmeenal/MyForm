@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+     <!-- use GET not POST  -->
+    <div>
+
+    <form method="GET" >
+    <span><h2>First Name:  </span><input type="text" name="first name"></h2> 
+       <h2>Last Name: <input type="text" name="last name"></h2>
+       <h2>Email Address: <input type="email" required name="email"></h2>
+       <h2>Password: <input type="password" minlength="5" name="password"> </h2>
+       <h2>Birth Date: <input type="date" name="birth date"></h2>
+       <h2>Gender: <br>
+        <input type="radio" name="Gender" value="male">Male<br>
+        <input type="radio" name="Gender" value="female">Female<br>
+        <input type="radio" name="Gender" value="other">Other<br>
+       </h2>
+       <h2>Pets:<br>
+        <input type="checkbox" name="cats">Cats<br>
+        <input type="checkbox" name="dogs">Dogs<br>
+        <h2>
+            Cars: <br>
+            <select name="cars">
+                <option value="Volvo" name="volvo">Volvo 
+               </option>
+               <option value="Audi" names="Audi">Audi
+              </option>
+            </select><br>
+        </h2>
+       </h2>
+       <input type="submit" value="Register">
+       <input type="reset">
+    </form>
+</body>
+</div>
+</html>
+
+
+<!--?
+    first+name=Minal
+    &last+name=Chhatre
+    &email=minalchhatre10%40gmail.com
+    &password=Min%407284559
+    &birth+date=2001-11-10
+    &Gender=female
+    &cats=on&dogs=on
+    s&cars=Audi
+-->
